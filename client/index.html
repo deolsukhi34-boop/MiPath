@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>MI Path - Immigration Consultant & Visa Firm | Powered by Muskan Immigration</title>
+    <meta name="description" content="Professional immigration consulting services in Sudbury. Study permits, work permits, permanent residency, LMIA, and visa applications with experienced guidance.">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#0B1E2D">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="MI Path">
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org Organization Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Muskan Immigration",
+        "alternateName": "MI Path",
+        "url": "https://www.muskanimmigration.com",
+        "telephone": "+14168487363",
+        "email": "Info@muskanimmigration.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Unit 2008, Lasalle Boulevard",
+            "addressLocality": "Sudbury",
+            "postalCode": "P3A 2A5",
+            "addressCountry": "CA"
+        },
+        "sameAs": [
+            "https://www.muskanimmigration.com"
+        ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

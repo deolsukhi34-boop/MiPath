@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Express Entry Draw: 4,500 ITAs Issued at CRS 481",
+    "date": "Dec 15, 2024",
+    "category": "express-entry",
+    "summary": "IRCC conducted another Express Entry draw targeting Canadian Experience Class candidates with a minimum CRS score of 481.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/submit-profile/rounds-invitations.html"
+  },
+  {
+    "id": 2,
+    "title": "New Language Requirements for PNP Applications",
+    "date": "Dec 12, 2024",
+    "category": "policy",
+    "summary": "Several provinces have updated their language proficiency requirements for Provincial Nominee Program applications.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html"
+  },
+  {
+    "id": 3,
+    "title": "Study Permit Processing Times Updated",
+    "date": "Dec 10, 2024",
+    "category": "processing",
+    "summary": "IRCC has updated processing times for study permit applications from various countries. Current estimates range from 4-12 weeks.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html"
+  },
+  {
+    "id": 4,
+    "title": "Immigration Fee Increases Effective January 2025",
+    "date": "Dec 8, 2024",
+    "category": "fees",
+    "summary": "New government fees for various immigration applications will take effect starting January 1, 2025.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/fees.html"
+  },
+  {
+    "id": 5,
+    "title": "OINP Updates Tech Draw Requirements",
+    "date": "Dec 5, 2024",
+    "category": "express-entry",
+    "summary": "Ontario Immigrant Nominee Program announces updated criteria for technology sector nominations under Express Entry.",
+    "sourceUrl": "https://www.ontario.ca/page/ontario-immigrant-nominee-program-oinp"
+  },
+  {
+    "id": 6,
+    "title": "Work Permit Extensions Streamlined",
+    "date": "Dec 3, 2024",
+    "category": "policy",
+    "summary": "IRCC introduces simplified process for certain work permit extensions to reduce processing delays.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/extend-permit.html"
+  },
+  {
+    "id": 7,
+    "title": "Visitor Visa Processing Improvements",
+    "date": "Nov 28, 2024",
+    "category": "processing",
+    "summary": "Enhanced digital processing capabilities lead to faster visitor visa application reviews for most countries.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html"
+  },
+  {
+    "id": 8,
+    "title": "LMIA Fee Structure Review Announced",
+    "date": "Nov 25, 2024",
+    "category": "fees",
+    "summary": "Employment and Social Development Canada announces review of LMIA application fees and processing procedures.",
+    "sourceUrl": "https://www.canada.ca/en/employment-social-development/services/foreign-workers.html"
+  }
+]

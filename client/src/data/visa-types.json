@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Study Permit & Extensions",
+    "subtitle": "Education Pathway",
+    "serviceType": "study-permit",
+    "overview": "Secure your study permit for Canadian institutions and ensure seamless extensions to continue your education journey. We guide you through the entire process from initial application to graduation work permits.",
+    "eligibility": [
+      "Letter of acceptance from DLI",
+      "Proof of financial support",
+      "Language proficiency test results",
+      "Medical examination (if required)",
+      "Police clearance certificate",
+      "Statement of purpose"
+    ],
+    "procedure": [
+      "Document collection and verification",
+      "Online application submission",
+      "Biometrics appointment",
+      "Application processing",
+      "Decision notification",
+      "Port of entry procedures"
+    ],
+    "processingTime": "4-12 weeks",
+    "governmentFees": ["$150 CAD", "Biometrics: $85 CAD"]
+  },
+  {
+    "id": 2,
+    "title": "Work Permits",
+    "subtitle": "Employment Authorization",
+    "serviceType": "work-permit",
+    "overview": "Obtain work authorization for employer-specific positions or open work permits for spouses. Navigate LMIA requirements and secure your pathway to Canadian employment.",
+    "eligibility": [
+      "Valid job offer or LMIA",
+      "Educational credentials assessment",
+      "Medical examination (if required)",
+      "Language proficiency (for some programs)",
+      "Clean criminal record",
+      "Proof of funds"
+    ],
+    "procedure": [
+      "LMIA application (if required)",
+      "Work permit application",
+      "Document submission",
+      "Biometrics collection",
+      "Medical examination",
+      "Final approval"
+    ],
+    "processingTime": "2-12 weeks",
+    "governmentFees": ["$155-255 CAD", "Biometrics: $85 CAD"]
+  },
+  {
+    "id": 3,
+    "title": "Permanent Residency",
+    "subtitle": "Make Canada Home",
+    "serviceType": "permanent-residency",
+    "overview": "Achieve your Canadian dream through Express Entry, Canadian Experience Class, Provincial Nominee Programs, or Ontario Immigrant Nominee Program pathways.",
+    "eligibility": [
+      "Language test results (CLB 7+)",
+      "Educational credential assessment",
+      "Skilled work experience",
+      "Proof of funds",
+      "Medical examination",
+      "Police clearance certificates"
+    ],
+    "procedure": [
+      "Eligibility assessment",
+      "Express Entry profile creation",
+      "Provincial nomination (if applicable)",
+      "Invitation to Apply (ITA)",
+      "Complete application submission",
+      "Final approval and landing"
+    ],
+    "processingTime": "6-12 months",
+    "governmentFees": ["$1,365 CAD", "Right of permanent residence fee: $515 CAD"]
+  },
+  {
+    "id": 4,
+    "title": "LMIA Services",
+    "subtitle": "Labour Market Impact",
+    "serviceType": "lmia",
+    "overview": "Navigate Labour Market Impact Assessment requirements for both immediate work authorization and permanent residency supporting applications.",
+    "eligibility": [
+      "Valid business license",
+      "Recruitment documentation",
+      "Financial statements",
+      "Job posting requirements",
+      "Wage compliance",
+      "Business necessity justification"
+    ],
+    "procedure": [
+      "Pre-assessment consultation",
+      "Job posting and recruitment",
+      "Application preparation",
+      "ESDC submission",
+      "Review and response to queries",
+      "Decision and work permit support"
+    ],
+    "processingTime": "2-6 months",
+    "governmentFees": ["$1,000 CAD", "Low-wage positions: $1,000 CAD"]
+  },
+  {
+    "id": 5,
+    "title": "Visitor Visa & Super Visa",
+    "subtitle": "Temporary Stay",
+    "serviceType": "visitor-visa",
+    "overview": "Secure visitor visas for tourism, business, or family visits. Super visa options available for parents and grandparents with extended stay privileges.",
+    "eligibility": [
+      "Valid passport",
+      "Proof of funds",
+      "Travel itinerary",
+      "Letter of invitation (if applicable)",
+      "Medical insurance (Super Visa)",
+      "Clean criminal record"
+    ],
+    "procedure": [
+      "Application preparation",
+      "Online submission",
+      "Biometrics appointment",
+      "Document verification",
+      "Decision notification",
+      "Passport stamping"
+    ],
+    "processingTime": "2-8 weeks",
+    "governmentFees": ["$100 CAD", "Super Visa: $100 CAD"]
+  },
+  {
+    "id": 6,
+    "title": "Refusal Review & Reapplication",
+    "subtitle": "Second Chances",
+    "serviceType": "refusal-review",
+    "overview": "Comprehensive review of refused applications with strategic reapplication approach. We analyze refusal reasons and develop stronger applications.",
+    "eligibility": [
+      "Previous refusal letter",
+      "Original application documents",
+      "Additional supporting evidence",
+      "Updated circumstances",
+      "Legal consultation",
+      "Fresh documentation"
+    ],
+    "procedure": [
+      "Refusal letter analysis",
+      "Gap identification",
+      "Strategy development",
+      "Document strengthening",
+      "New application preparation",
+      "Submission and follow-up"
+    ],
+    "processingTime": "Varies by application type",
+    "governmentFees": ["Same as original application", "Additional fees may apply"]
+  }
+]
