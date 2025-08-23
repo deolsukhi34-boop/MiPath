@@ -1,0 +1,155 @@
+PROMPT: Build the “MI Path” App (by Muskan Immigration)
+
+Goal: Create a responsive PWA app named MI Path (Powered by Muskan Immigration) that matches our website style and later can be published on the Play Store via TWA. The app must include IRCC updates, Visa Types (docs/procedure/time/fees), lead capture to Airtable, and direct links to our website and Microsoft registration form.
+
+Brand & UI
+
+App Name: MI Path
+
+Credit/Subtext: Powered by Muskan Immigration
+
+Tagline: Path to Success
+
+Colors (match site): Deep Navy #0B1E2D, Royal Blue #0F7CFF, Teal #00C2A8, Coral #FF6B5A, Off‑White #F7FAFF
+
+Fonts: Inter (UI/body), Poppins (headings). Rounded corners ~18px, soft shadows, clean icons.
+
+Business Info & Links (wire exactly)
+
+Phone: tel:14168487363
+
+Email: mailto:Info@muskanimmigration.com
+
+Address: Unit 2008, Lasalle Boulevard, Sudbury, P3A 2A5
+
+Visit Website: https://www.muskanimmigration.com
+
+Register (Microsoft Form):
+https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=xf4j8SksC06PW3LPZwg76xOtiBTO1TpBtjsvJy32FpVUNks3MVpGSUoyQkM4OTJHSUhCSjU3RzFSNC4u&Token=2e6e78763aaf4dc5b5ae676db2ee6163
+
+Register via Email: mailto:Info@muskanimmigration.com?subject=Registration%20Request%20-%20MI%20Path
+
+Navigation (tabs + drawer)
+
+Home
+
+Latest News
+
+Visa Types
+
+About Us
+
+Happy Clients
+
+Contact / Register (CTA button always visible)
+
+Home
+
+Hero with Canada/national backdrop; headline: Experienced Immigration Consultant & Visa Firm in Sudbury; short subtext about Study/Work/PR/LMIA/Visitor/Super Visa.
+
+Two CTAs: Register Now (Form link) and Visit Website.
+
+Process Stepper (7 professional steps):
+
+Online Registration — Submit your initial application through our secure online portal.
+
+Preliminary Consultation — Our team reviews your request and establishes initial contact.
+
+Document Intake — Provide the necessary documents and information for assessment.
+
+Case Review & Appointment Scheduling — We evaluate your file and confirm a consultation slot.
+
+Client Meeting — Detailed discussion of eligibility, options, and next steps.
+
+Retainer Agreement — Formal engagement begins with signing of the service agreement.
+
+Application Process Initiated — We commence the preparation and submission of your case.
+
+Latest News (IRCC hub)
+
+Four filters: Express Entry Draws, Law/Policy Changes, Processing Times, Fee Updates.
+
+Implement a simple editable data source (local data/news.json or Markdown) with fields: title, date, category, summary, sourceUrl (IRCC link).
+
+List cards (title, date, 1–2 line summary, Source button), plus search & sort by date. No auto-scraping.
+
+Visa Types (requirements + procedure)
+
+Create detailed cards/pages for: Study Permit & Extensions, Work Permit (Employer-specific & Spousal/Open), Permanent Residency (Express Entry/CEC/PNP/OINP), LMIA & PR‑supportive LMIA, Visitor Visa & Super Visa, Refusal Review & Reapplication.
+Each item shows:
+
+Overview (1–2 paragraphs)
+
+Eligibility / Required Documents (bullets)
+
+Procedure (step list aligned with IRCC)
+
+Typical Processing Time (editable text)
+
+Government Fees (editable list)
+
+CTAs: Register (Form link), Ask via Email
+
+Store this content in editable data/visaTypes.json.
+
+Happy Clients (no blurred photos)
+
+Replace images with clean case cards (icon + text): Title (e.g., Study Permit Approved), Month/Year, Region (optional), one‑line success note, Approved badge icon.
+
+Add Testimonials slider with initials only (e.g., “Transparent process and timely updates.” — A.K.).
+
+About Us
+
+Who we are; values: clarity, integrity, timely execution.
+
+Director’s Message — Itwant Singh Johal (short paragraph).
+
+Address block + map placeholder; Office hours: Mon–Fri 09:00–18:00.
+
+Contact / Register
+
+Big buttons: Register Now (Form), Register via Email, Call 416‑848‑7363, Visit Website.
+
+A simple contact form (name/email/phone/message) that submits to Airtable (see API below).
+
+Airtable Integration (secure, required)
+
+Create a tiny Node/Express API inside this project to post leads to Airtable.
+
+Env vars: AIRTABLE_TOKEN, AIRTABLE_BASE, AIRTABLE_TABLE="Registrations".
+
+Endpoint: POST /api/register with body { name, phone, email, service, notes, source }.
+
+Map to Airtable fields: Name, Phone, Email, Service, Notes, Source (default "App"), Status="New".
+
+Front‑end forms (Contact + inline register) call this endpoint and show success/error toasts.
+
+Also add a health check: GET /api/health → { ok: true }.
+
+PWA + Play Store readiness
+
+Include manifest.json (name: "MI Path", short_name: "MI Path", theme/background colors from brand) + service worker for offline shell.
+
+Provide a short README section with steps to publish as TWA (Bubblewrap) using this app’s domain; include icon placeholders (512px & 192px).
+
+Add Schema.org Organization with phone/email/url.
+
+Ensure fully responsive, accessible, and fast (lazy-load images).
+
+Footer
+
+Quick links: Home • Latest News • Visa Types • About Us • Contact/Register.
+Legal note: “Information provided is general guidance and not legal advice. Sources credited to IRCC where applicable.”
+Copyright: MI Path — Powered by Muskan Immigration.
+
+Deliverables
+
+React/TypeScript app with routes & components for all pages.
+
+Editable JSON for news and visa types.
+
+Working Airtable POST endpoint and wired forms.
+
+Matching colors/fonts with the website; professional, modern UI.
+
+PWA configured; TWA/Play Store instructions included.
